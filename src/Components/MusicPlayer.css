@@ -1,0 +1,55 @@
+.music-player {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    opacity: 0.8;
+  }
+  
+  .music-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cover-art {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .song-details h3 {
+    font-size: 24px;
+  }
+  
+  .song-details p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .progress-bar {
+    flex: 1;
+  }
+  
+  .buttons button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .buttons button:focus {
+    outline: none;
+  }
+  

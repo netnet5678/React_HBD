@@ -1,0 +1,32 @@
+/* Basic styles for swiper images */
+.swiper-image {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Style for the expanded image modal */
+  .image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 217, 217, 0.8);
+    z-index: 1000;
+  }
+  
+  .expanded-image {
+    max-width: 90%;
+    max-height: 90%;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .expanded-image:hover {
+    transform: scale(1.1); /* Zoom effect */
+  }
+  
